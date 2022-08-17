@@ -1,0 +1,35 @@
+body { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2 {
+  height: 500px;
+  width: 70%;
+  border: 0px;
+  background-color: #E7E7E7;
+  padding: 7px;
+  float: left;
+  margin: 8px;
+  background: rgba(238, 238, 238, 0.3);
+}
+
+.icon { 
+  width: 17px;
+  background:transparent;
+  float: left;
+  padding: 2px;
+}
+
+a:link {
+  color: #2c272b;
+}
+
+/* visited link */
+a:visited {
+  color: #2c272b;
+}
+
+/* mouse over link */
+a:hover {
+  color: #d37859;
+}

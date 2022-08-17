@@ -7,6 +7,20 @@ body {
   background-color: #cccccc;
 }
 
+a:link {
+  color: #2c272b;
+}
+
+/* visited link */
+a:visited {
+  color: #2c272b;
+}
+
+/* mouse over link */
+a:hover {
+  color: #d37859;
+}
+
 .bg {
   background-image: url(/img/portland.jpeg);
 
@@ -81,4 +95,9 @@ body {
   color:indianred;
   font-size: 11pt;
   text-align: center;
+}
+
+.profile {
+  width: 90%;
+  padding: 5%;
 }
