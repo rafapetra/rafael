@@ -31,17 +31,18 @@ body {
   margin: auto;
   display: flex;
   flex-direction: row;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .container2 {
-  height: 110px;
+  height: 100%;
   width: 70%;
   border: 0px;
   background-color: #E7E7E7;
   padding: 7px;
   float: left;
   margin: 8px;
-
+  background: rgba(238, 238, 238, 0.3);
   
 }
 
@@ -50,23 +51,24 @@ body {
   margin: 8px;
   width: 230px;
   border: 0px;
-  background-color: #684141;
+  background: rgba(137, 91, 91, 0.3);
   padding: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+
 }
 
-.left-child {
+.container1-child {
   background-color: #ffffff;
-  border: 1px solid #000;
+  border: 0px solid #000;
   width: 90%;
   margin: 2px;
   padding: 2px;
   display: flex;
   justify-content: center;
-
 }
 
 .column h1 {
